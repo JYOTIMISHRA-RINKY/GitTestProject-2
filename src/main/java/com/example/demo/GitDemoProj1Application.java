@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitDemoProj1Application {
 String a="home";
 Integer b=7;
+List<String> l=new ArrayList<>();
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitDemoProj1Application.class, args);
