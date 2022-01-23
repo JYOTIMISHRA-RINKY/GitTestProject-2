@@ -5,6 +5,8 @@ public class Student {
 	
 	private Integer sid;
 	private String sname;
+	private String saddrs;
+	
 	public Integer getSid() {
 		return sid;
 	}
@@ -16,6 +18,10 @@ public class Student {
 	}
 	public void setSname(String sname) {
 		this.sname = sname;
+	}
+	@Override
+	public String toString() {
+		return "Student [sid=" + sid + ", sname=" + sname + "]";
 	}
 	
 	

@@ -7,6 +7,7 @@ public class Employee {
 	private String ename;
 	private String addrs;
 	private String desg;
+	private Long number;
 	public Integer getEid() {
 		return eid;
 	}
